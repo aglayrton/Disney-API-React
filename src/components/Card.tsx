@@ -10,6 +10,7 @@ export const Card = ({ person }: Props) => {
       <div>
         <h1>{person.name}</h1>
         <img src={person.imageUrl} alt="opa"/>
+        <button>sobre</button>
       </div>
     </>
   );
